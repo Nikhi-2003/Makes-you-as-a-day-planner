@@ -3,10 +3,10 @@ body {
     background: radial-gradient(circle at top right, #ff7e5f, #feb47b);
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 100vh; /* Use full viewport height */
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
 }
 
 .container {
