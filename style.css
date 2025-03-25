@@ -1,12 +1,12 @@
 body {
     font-family: 'Arial', sans-serif;
-    background: radial-gradient(circle at top right, #ff7e5f, #feb47b);
+    background: radial-gradient(circle at top right, #6a11cb, #2575fc);
     margin: 0;
     padding: 0;
-    height: 100vh; /* Use full viewport height */
+    height: 100vh;
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
@@ -38,8 +38,7 @@ button {
     padding: 10px;
     border: none;
     border-radius: 4px;
-    background-color: #6a11cb;
-    background-image: linear-gradient(to right, #2575fc, #6a11cb);
+    background-color: #ff6f61;
     color: white;
     font-size: 16px;
     cursor: pointer;
@@ -47,12 +46,13 @@ button {
 }
 
 button:hover {
-    background-image: linear-gradient(to right, #6a11cb, #2575fc);
+    background-color: #ff4c40;
 }
 
 ul {
     list-style-type: none;
     padding: 0;
+    margin-top: 20px;
 }
 
 li {
@@ -82,4 +82,9 @@ li:last-child {
 
 .remove-btn:hover {
     background-color: #c9302c;
+}
+
+.employee-name {
+    font-weight: bold;
+    color: #333;
 }
