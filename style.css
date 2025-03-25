@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background: radial-gradient(circle at top right, #6a11cb, #2575fc);
+    background: radial-gradient(circle at top right, #ff7e5f, #feb47b);
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -13,24 +13,29 @@ body {
     max-width: 400px;
     width: 100%;
     padding: 20px;
-    background-color: white;
+    background-color: #ffffff; /* White background for contrast */
     border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
 h1 {
-    color: #333;
+    color: #4a90e2; /* Bright blue for the heading */
     margin-bottom: 20px;
 }
 
 input[type="text"] {
     width: calc(100% - 22px);
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #ff6f61; /* Use a vibrant color for the border */
     border-radius: 4px;
     margin-bottom: 10px;
     font-size: 16px;
+    transition: border 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #4a90e2; /* Change border color on focus */
 }
 
 button {
@@ -38,7 +43,7 @@ button {
     padding: 10px;
     border: none;
     border-radius: 4px;
-    background-color: #ff6f61;
+    background-color: #ff6f61; /* Coral color */
     color: white;
     font-size: 16px;
     cursor: pointer;
@@ -46,7 +51,7 @@ button {
 }
 
 button:hover {
-    background-color: #ff4c40;
+    background-color: #ff4c40; /* Darker coral on hover */
 }
 
 ul {
@@ -57,13 +62,18 @@ ul {
 
 li {
     padding: 10px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #ffe0b2; /* Light orange for list item separators */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f9f9f9;
+    background-color: #ffe5b4; /* Light peach for list items */
     border-radius: 4px;
     margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+li:hover {
+    background-color: #ffd54f; /* Bright yellow on hover */
 }
 
 li:last-child {
@@ -71,7 +81,7 @@ li:last-child {
 }
 
 .remove-btn {
-    background-color: #d9534f;
+    background-color: #d9534f; /* Vibrant red for remove button */
     border: none;
     color: white;
     padding: 5px 10px;
@@ -81,10 +91,10 @@ li:last-child {
 }
 
 .remove-btn:hover {
-    background-color: #c9302c;
+    background-color: #c9302c; /* Darker red on hover */
 }
 
 .employee-name {
     font-weight: bold;
-    color: #333;
+    color: #4a90e2; /* Bright blue for employee names */
 }
